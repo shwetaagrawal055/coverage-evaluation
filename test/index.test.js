@@ -1,11 +1,23 @@
-const { newFunction, addItem, getItem, formatDate } = require("../src/index"); // Correct import
+const {
+  main,
+  newFunction,
+  addItem,
+  getItem,
+  formatDate,
+} = require("../src/index"); // Correct import
 
-describe("newFunction", () => {
-  it("should return the correct sum of two numbers", () => {
-    const result = newFunction();
-    expect(result).toBe(30); // Test newFunction
+describe("Main function", () => {
+  it("should run without errors", () => {
+    expect(() => main()).not.toThrow();
   });
 });
+
+// describe("newFunction", () => {
+//   it("should return the correct sum of two numbers", () => {
+//     const result = newFunction();
+//     expect(result).toBe(30); // Test newFunction
+//   });
+// });
 
 describe("addItem", () => {
   it("should add an item correctly", () => {

@@ -1,3 +1,4 @@
+// index.js
 const { addItem, getItem } = require("./services");
 const { formatDate } = require("./utils");
 
@@ -7,7 +8,7 @@ const { formatDate } = require("./utils");
 function newFunction() {
   const x = 10;
   const y = 20;
-  return x + y; // This function is intentionally left untested
+  return x + y;
 }
 
 /**
@@ -22,12 +23,10 @@ function main() {
 
   console.log("Formatted Date:", formatDate(new Date()));
 
-  // Call the new untested function
-  const result = newFunction();
-  console.log("Result from newFunction:", result);
+  //   const result = newFunction();
+  //console.log("Result from newFunction:", result);
 }
 
-// Export functions for testing
-module.exports = { addItem, getItem, formatDate, newFunction };
+module.exports = { main, addItem, getItem, formatDate, newFunction }; // Export main function
 
 main();
