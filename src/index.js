@@ -1,4 +1,3 @@
-// index.js
 const { addItem, getItem } = require("./services");
 const { formatDate } = require("./utils");
 
@@ -27,5 +26,8 @@ function main() {
   const result = newFunction();
   console.log("Result from newFunction:", result);
 }
+
+// Export functions for testing
+module.exports = { addItem, getItem, formatDate, newFunction };
 
 main();

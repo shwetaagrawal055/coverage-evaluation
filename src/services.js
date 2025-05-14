@@ -1,25 +1,22 @@
-// services.js
-let items = []; // This will store items in memory
+let items = []; // Example to hold items
 
 /**
- * Adds a new item to the array and returns it
- * @param {string} name - The name of the item to add
- * @returns {Object} - The item object added
+ * Adds an item to the list.
+ *
+ * @param {string} name - The name of the item to be added.
+ * @returns {Object} The newly created item with id, name, and createdAt properties.
  */
 function addItem(name) {
-  const newItem = {
-    id: Date.now(), // Generate a unique ID based on current timestamp
-    name,
-    createdAt: new Date(),
-  };
-  items.push(newItem);
-  return newItem;
+  const item = { id: Date.now(), name, createdAt: new Date() };
+  items.push(item);
+  return item;
 }
 
 /**
- * Fetches an item by its ID
- * @param {number} id - The ID of the item to fetch
- * @returns {Object|undefined} - The item object if found, otherwise undefined
+ * Retrieves an item by its id.
+ *
+ * @param {number} id - The id of the item to be retrieved.
+ * @returns {Object|undefined} The item with the specified id, or undefined if not found.
  */
 function getItem(id) {
   return items.find((item) => item.id === id);
