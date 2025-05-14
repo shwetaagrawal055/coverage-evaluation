@@ -1,0 +1,16 @@
+{
+  "name": "coverage-evaluation",
+  "version": "1.0.0",
+  "description": "A simple app to test AI-based documentation evaluation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
