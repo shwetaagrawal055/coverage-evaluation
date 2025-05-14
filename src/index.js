@@ -3,7 +3,7 @@ const { addItem, getItem } = require("./services");
 const { formatDate } = require("./utils");
 
 /**
- * New untested function added to decrease coverage
+ * This function performs a simple arithmetic operation, adding two numbers together.
  */
 function newFunction() {
   const x = 10;
