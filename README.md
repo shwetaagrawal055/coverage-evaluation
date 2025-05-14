@@ -1,4 +1,4 @@
-# My Test App
+# Code Coverage Test App
 
 This is a simple Node.js app used for testing LLM-based code documentation evaluation. It includes basic CRUD functionality and utility functions, all well-documented with inline comments and a README.
 
