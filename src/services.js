@@ -11,7 +11,9 @@ function addItem(name) {
   items.push(item);
   return item;
 }
-
+function uncoveredFunction() {
+  console.log('This is uncovered');
+}
 /**
  * Retrieves an item by its id.
  *
