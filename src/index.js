@@ -10,7 +10,9 @@ function newFunction() {
   const y = 20;
   return x + y;
 }
-
+function newFunction2() {
+  return 10 + 20;
+}
 /**
  * Main function to test the app functionality
  */

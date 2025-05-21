@@ -12,6 +12,7 @@ function addItem(name) {
   return item;
 }
 
+//This is a dummy comment
 /**git config user.email "youremail@example.com"
  * Retrieves an item by its id.
  *
