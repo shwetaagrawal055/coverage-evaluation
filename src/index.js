@@ -10,9 +10,6 @@ function newFunction() {
   const y = 20;
   return x + y;
 }
-function uncoveredFunction() {
-  console.log('This is uncovered');
-}
 
 /**
  * Main function to test the app functionality

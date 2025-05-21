@@ -11,10 +11,8 @@ function addItem(name) {
   items.push(item);
   return item;
 }
-function uncoveredFunction() {
-  console.log('This is uncovered');
-}
-/**
+
+/**git config user.email "youremail@example.com"
  * Retrieves an item by its id.
  *
  * @param {number} id - The id of the item to be retrieved.
